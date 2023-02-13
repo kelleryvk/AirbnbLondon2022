@@ -1,0 +1,44 @@
+.main {
+    padding-top: 20px;
+}
+
+.top-header {
+    background-image: linear-gradient(to right, white, rgba(232, 81, 88, 0.3));
+}
+
+body {
+    background-image: url("images/londonEye.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    display: grid;
+    grid-template-rows: auto auto 1fr auto;
+    min-height: 100vh;
+}
+
+.navbar,
+.footer {
+    background-color: #E85158;
+}
+
+nav .navbar-nav li a {
+    color: white !important;
+    font-weight: bold;
+}
+
+div .mx-auto {
+    opacity: 95% !important;
+}
+
+p {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+li {
+    padding-right: 20px;
+}
+
+.d-flex a {
+    padding-right: 50px;
+}
