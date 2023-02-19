@@ -42,3 +42,18 @@ li {
 .d-flex a {
     padding-right: 50px;
 }
+
+iframe {
+    top:0;
+    left:0;
+    width:100%;
+    height:600px;
+}
+
+.card-img-top {
+    height: 75%;
+}
+
+.card-title {
+    text-align: center;
+}
