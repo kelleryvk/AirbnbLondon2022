@@ -19,7 +19,7 @@ class Navbar extends HTMLElement {
                         <a href="./room.html" class="nav-link">Room related data</a>
                     </li>
                     <li class="nav-item">
-                        <a href="./hosts.html" class="nav-link">Host related data</a>
+                        <a href="./reviews.html" class="nav-link">Review related data</a>
                     </li>
                     <li class="nav-item">
                         <a href="./links.html" class="nav-link">Links</a>
