@@ -17,11 +17,11 @@
     <script src="components/navbar.js" type="text/javascript" defer></script>
     <script src="components/footer.js" type="text/javascript" defer></script>
     <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
-    <script> 
-        $(function(){
-           $('#bubble').load("test.html"); 
+    <script>
+        $(function () {
+            $('#bubble').load("test.html");
         });
-     </script> 
+    </script>
 </head>
 
 <body>
@@ -29,24 +29,36 @@
     <navbar-component></navbar-component>
     <!-- Main Content -->
     <div class="main">
-        <div class="container mx-auto" style="padding-top: 10px;">
+        <div class="container mx-auto" style="padding-top: 10px; padding-bottom: 30px;">
             <div class="card text-center border-0">
                 <div class="card-body">
-                    <h3 class="card-title">Introduction To Topic</h3>
-                    <p>It is a long established fact that a reader will be distracted by the readable content of a page
-                        when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
-                        distribution of letters, as opposed to using 'Content here, content here', making it look like
-                        readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as
-                        their default model text, and a search for 'lorem ipsum' will uncover many web sites still in
-                        their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on
-                        purpose (injected humour and the like).</p>
+                    <h5>Looking for an airbnb accommidation in London but don't know in which neighbourhood you like to
+                        stay?
+                        </br>
+                        We analysed the Airbnb 2022 in London dataset from Kaggle to create the following summaries to
+                        make your decision making easier!
+                        </br>
+                        Enjoy your future stay in London!
+                    </h5>
                 </div>
             </div>
         </div>
+
+        <div class="card text-center border-0">
+            <h3>Bubble map chart</h3>
+            <p>This is an interactive bubble map chart representing the median daily cost and count of accommodations in
+                each
+                neighbourhood.
+                </br>
+                Hover over each bubble to see more details.
+            </p>
+        </div>
+
         <div class="container mx-auto" style="padding-bottom: 20px;">
             <iframe src="./charts/Bubble_map_google.html"></iframe>
         </div>
     </div>
     <footer-component></footer-component>
 </body>
+
 </html>
