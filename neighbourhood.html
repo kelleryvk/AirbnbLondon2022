@@ -22,19 +22,51 @@
             <div class="card text-center border-0">
                 <div class="card-body">
                     <h3 class="card-title">Neighbourhood related data</h3>
-                    <p>It is a long established fact that a reader will be distracted by the readable content of a page
-                        when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
-                        distribution of letters, as opposed to using 'Content here, content here', making it look like
-                        readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as
-                        their default model text, and a search for 'lorem ipsum' will uncover many web sites still in
-                        their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on
-                        purpose (injected humour and the like).</p>
+                    <p>The bubble chart represents the median daily cost and count of accommodations in each
+                        neighbourhood.
+                        When hoovering over each bubble, we can see:
+
+                    <div style="text-align: center">
+                        <ul>
+                            <li>Neighbourhood name</li>
+                            <li>Median price a night</li>
+                            <li>Amount of listings</li>
+                        </ul>
+                    </div>
+
+                    In addition to that, the colour scale on the right gives us a feeling of the median price.
+                    </br>
+                    The most expensive neighbourhoods are:
+                    </br>
+                    <div style="text-align: center">
+                        <ol>
+                            <li>City of London</li>
+                            <li>Westminster</li>
+                            <li>Kensington and Chelsea</li>
+                            <li>Camden and Hammersmith</li>
+                            <li>Fulham</li>
+                        </ol>
+                    </div>
+                    </p>
                 </div>
             </div>
         </div>
 
         <div class="container mx-auto" style="padding-bottom: 20px;">
             <iframe src="./charts/Avg_bubble_chart.html"></iframe>
+        </div>
+
+        <div class="container mx-auto" style="padding-top: 10px;">
+            <div class="card text-center border-0">
+                <div class="card-body">
+                    <p style="padding-bottom: 20px;">If you're planning a last minute trip, this summary table can be useful.
+                        Showing the median availability of the different room types by neighbourhood during the year 2022.</br>
+                        Zeros in Hotel room category can be explained by the fact that there are no listings in many neighbourhoods. </br>
+                        In two popular and expensive neighbourhoods: Westminster & Kensington and Chelsea only Hotel rooms seem to be available most of the year.
+                    </p>
+                    <img src="./images/Median_availability_neighbourhood_roomtype.png"></img>
+                </div>
+            </div>
         </div>
 
     </div>

@@ -21,22 +21,37 @@
         <div class="container mx-auto" style="padding-top: 10px;">
             <div class="card text-center border-0">
                 <div class="card-body">
-                    <h3 class="card-title">Review related data</h3>
-                    <p>It is a long established fact that a reader will be distracted by the readable content of a page
-                        when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
-                        distribution of letters, as opposed to using 'Content here, content here', making it look like
-                        readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as
-                        their default model text, and a search for 'lorem ipsum' will uncover many web sites still in
-                        their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on
-                        purpose (injected humour and the like).</p>
+                    <h3 class="card-title">Prices related data</h3>
                 </div>
             </div>
         </div>
 
-        <div class="container mx-auto" style="padding-bottom: 20px;">
-            <iframe src="./charts/avg_tot_number_reviews_ltm.html"></iframe>
+        <div class="container mx-auto">
+            <div class="col-md-8" style="margin:0 auto;">
+                <iframe src="./charts/boxplot_prices.html" style="height: 550px;"></iframe>
+            </div>
+        </div>
+
+        <div class="container mx-auto" style="padding-bottom: 20px; text-align:center;">
+            <div class="card text-center border-0">
+                <div class="card-body">
+                    <h3 class="card-title">Review related data</h3>
+                    <p>Surprisingly, the average number of reviews seems to be higher for the category Hotel room
+                        listings
+                        whilst lowest for the most popular type of accommodations (Entire home/apt).</br>
+                        The lower values for Entire home/apt and Private room are explained by the fact that, in these
+                        categories, there are much more listings with no reviews.</br>
+                        Nevertheless, when looking at the total number of reviews, we can argue there can be cases in
+                        which
+                        Entire home/apt and Private room have been reviewed and therefore, we may be able to get a fair
+                        picture of the accommodation we are about to book.
+                    </p>
+                </div>
+            </div>
+            <img src="./images/avg_number_reviews.png"></img>
         </div>
     </div>
     <footer-component></footer-component>
 </body>
+
 </html>
