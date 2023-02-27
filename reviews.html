@@ -21,7 +21,23 @@
         <div class="container mx-auto" style="padding-top: 10px;">
             <div class="card text-center border-0">
                 <div class="card-body">
-                    <h3 class="card-title">Prices related data</h3>
+                    <h3 class="card-title">Price related data</h3>
+                    <p>Outliers in price account for 7.12% of records. </br>
+                        This is due to a few listings posted in popular
+                        areas with above-market prices. Given they can skew the boxplot visualization, we removed them
+                        from the dataset. </br>
+                        We can normalize (cap out) the outliers by using the interquartile range and then re-run the
+                        boxplot via seaborn library. </br>
+                        
+                        Overall, it seems above £100 budget the majority of visitors tend to use an Entire home but
+                        below they tend to use Private rooms. In addition, the boxplot helps us identify minimum, median
+                        and maximum prices per each room type. Hotel rooms remain the most expensive, whilst shared
+                        rooms the cheapest. Moreover, it gives us a few useful information regarding both private rooms
+                        and shared rooms. Both present points outside the whiskers that might not be considered to be
+                        “outliers”. These more likely tell us data are positively skewed with median closer to the
+                        bottom quartile (mean > median) therefore prices constitute higher frequency of high recorded
+                        prices.
+                    </p>
                 </div>
             </div>
         </div>

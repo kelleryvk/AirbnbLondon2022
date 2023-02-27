@@ -17,11 +17,6 @@
     <script src="components/navbar.js" type="text/javascript" defer></script>
     <script src="components/footer.js" type="text/javascript" defer></script>
     <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
-    <script>
-        $(function () {
-            $('#bubble').load("test.html");
-        });
-    </script>
 </head>
 
 <body>
@@ -44,17 +39,16 @@
             </div>
         </div>
 
-        <div class="card text-center border-0">
-            <h3>Bubble map chart</h3>
-            <p>This is an interactive bubble map chart representing the median daily cost and count of accommodations in
-                each
-                neighbourhood.
-                </br>
-                Hover over each bubble to see more details.
-            </p>
-        </div>
-
         <div class="container mx-auto" style="padding-bottom: 20px;">
+            <div class="card text-center border-0">
+                <h3>Bubble map chart</h3>
+                <p>This is an interactive bubble map chart representing the median daily cost and count of accommodations in
+                    each
+                    neighbourhood.
+                    </br>
+                    Hover over each bubble to see more details.
+                </p>
+            </div>
             <iframe src="./charts/Bubble_map_google.html"></iframe>
         </div>
     </div>
