@@ -22,6 +22,9 @@ class Navbar extends HTMLElement {
                         <a href="./reviews.html" class="nav-link">Price & Review related data</a>
                     </li>
                     <li class="nav-item">
+                        <a href="./availability.html" class="nav-link">Availability</a>
+                    </li>
+                    <li class="nav-item">
                         <a href="./links.html" class="nav-link">Links</a>
                     </li>
                 </ul>
